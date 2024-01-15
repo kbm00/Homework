@@ -38,7 +38,7 @@ int[] ProcessJob(int[] jobList) { }
                         remainTime -= workTime;
                         days.Add(day);
                         break;
-                    }
+                    } 
                     else
                     {
                         workTime -= remainTime;
